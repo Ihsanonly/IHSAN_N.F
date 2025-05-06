@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>From Ihsan to Te ifa</title>
+  <link rel="stylesheet" href="style-index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hai Teh Ifa!</h1>
+    <p>Aku punya pertanyaan spesial nih 😄</p>
+    <p>Siapa nama adik paling lucu, jago public speaking, dan sayang banget sama Tetehnya?</p>
+    <input type="text" id="answer" placeholder="Tulis di sini ya, Teh">
+    <button onclick="checkAnswer()">Jawab</button>
+  </div>
+
+  <script>
+    function checkAnswer() {
+      const answer = document.getElementById('answer').value.toLowerCase();
+      if (answer.includes("ican")) {
+        window.location.href = "love.html"; // halaman jika benar
+      } else {
+        window.location.href = "wrong.html"; // halaman jika salah
+      }
+    }
+  </script>
+  
+</body>
+</html>

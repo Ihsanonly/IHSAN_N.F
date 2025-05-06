@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(to bottom right, #ffccd5, #ffe6ea);
+  font-family: 'Comic Sans MS', sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container {
+  background-color: #fff0f3;
+  padding: 30px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(255,105,180,0.3);
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6b9f;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
